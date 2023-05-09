@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display:flex;
+    min-height:200px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #393e46;
+}
+
+h2 {
+    margin-bottom:20px;
+    color: #f96d00;
+}
+
+#help-text {
+    display:none;
+    border: 1px solid black;
+    color:black;
+    text-align: center;
+    line-height: 1.6;
+}
+
+#help {
+    text-align: center;
+    color:black;
+    padding: 1px;
+    position:absolute;
+    top:1%;
+    right: 0.5%;
+    padding:2px;
+}
+#frame {
+    position:relative;
+    padding:30px;
+    height:auto;
+    width:60vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    border: 3px solid orange;
+    border-radius: 10px;
+    background: #F1F3F5;
+}
+
+#palindrome_checker {
+    margin: 20px;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    align-items: center;
+    width: 80%;
+    max-width:80%;
+    border-radius:10px;
+    background-color: #394a51;
+    padding: 10px 0 0 0;
+}
+
+#form {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#buttons {
+    width:100%;
+}
+
+button {
+    padding: 2px 5px;
+    font-size:1rem;
+    font-weight:600;
+}
+
+#palindrome_checker #form * {
+    margin:5px;
+}
+
+textarea {
+    padding:5px;
+    font-size:1rem;
+    font-weight:600;
+    border-radius:10px;
+    text-align: center;
+    max-height: 20vh;
+    min-height: 10vh;
+    max-width: 30vw;
+    min-width: 10vw;
+}
